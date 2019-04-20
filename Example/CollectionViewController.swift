@@ -36,6 +36,7 @@ class CollectionViewController: UICollectionViewController, StatefulViewControll
         refresh()
     }
 
+    @objc
     func refresh() {
         if (lastState == .loading) { return }
 

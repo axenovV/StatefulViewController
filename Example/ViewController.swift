@@ -36,6 +36,7 @@ class ViewController: UIViewController, StatefulViewController {
         refresh()
     }
     
+    @objc
     func refresh() {
         if (lastState == .loading) { return }
         
